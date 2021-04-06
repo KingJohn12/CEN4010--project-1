@@ -1,20 +1,29 @@
 .main-heading {
   text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+}
+
+.logout {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
 }
 .profile-box {
   height: 200px;
   width: 200px;
-  border: 5px solid grey;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border: 5px solid lightblue;
+  display: inline-block;
+  margin-left: 42%;
   margin-bottom: 50px;
+  margin-top: 75px;
 }
 
-.profile-placeholder {
-  position: relative;
-  top: 30%;
+.username {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .user-attr {
@@ -25,6 +34,7 @@
 .user-text {
   display: inline;
   font-size: 15px;
+  margin-right: 15px;
 }
 
 .friend-body {
