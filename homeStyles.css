@@ -11,6 +11,29 @@
   right: 20px;
   cursor: pointer;
 }
+
+.locations {
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.messages-home {
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+}
+
 .profile-box {
   height: 200px;
   width: 200px;
@@ -55,4 +78,32 @@
 
 .friends-list-btn {
   margin-left: 45%;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.button-link:hover {
+  text-decoration: none;
+}
+
+.friendslist-link {
+  color: white;
+}
+
+.friendslist-link:hover {
+  color: white;
+}
+
+.messages-link {
+  color: black;
+}
+
+.messages-link:hover {
+  color: black;
+}
+
+.location:visited {
+  color: #0d6efd;
 }
