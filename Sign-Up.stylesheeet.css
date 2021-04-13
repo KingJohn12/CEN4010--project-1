@@ -22,6 +22,15 @@ background-size: cover;
    
 }
 
+.Sign-Up-wrapper2 {
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
 .form {
     position: relative;
     width: 100%;
