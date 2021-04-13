@@ -34,6 +34,19 @@
   padding: 20px;
 }
 
+.mesgfield * 
+{
+	vertical-align: middle;
+	margin-left: 45%;
+	margin-bottom: 50px;
+	margin-top: 75px;
+}
+
+.mesgsnd-btn {
+  margin-left: 55%;
+}
+
+
 .profile-box {
   height: 200px;
   width: 200px;
